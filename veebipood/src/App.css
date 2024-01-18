@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.pilt {
+  width: 100px;
+  /* height: 200px; */
+}
+
+.pilt:hover {
+  cursor: pointer;
+  opacity: 70%;
+  /* opacity: 0.7; */
+}
+
+.pilt:active {
+  transform: rotate(5deg);
+  width: 95px;
+}
+
+.nupp {
+  background-color: brown;
+  color: white;
+  border-radius: 5px;
+}
+
+.nupp:hover {
+  cursor: pointer;
+  background-color: rgb(193, 40, 40);
+}
+
+.nupp:active {
+  background-color: rgb(138, 29, 29);
+  text-decoration: underline;
+}
